@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Cheeto.Sc.ContentSearch/v15/Server/sqlite3
+/.vs/Cheeto.Sc.ContentSearch/v15/.suo
+/.vs
+/Cheeto.Sc.ContentSearch/.vs/Cheeto.Sc.ContentSearch/v15
+/Cheeto.Sc.ContentSearch/bin/Debug
+/Cheeto.Sc.ContentSearch/obj
+/Cheeto.Sc.ContentSearch.Examples/bin
+/Cheeto.Sc.ContentSearch.Examples/obj
+/packages
