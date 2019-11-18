@@ -63,6 +63,8 @@ namespace Cheeto.Sc.ContentSearch.ComputedFields
 
             if (ShouldProcess)
                 return this.ExecuteComputeFieldValue(indexable);
+
+            return null;
         }
 
         protected virtual void Initialize(XmlNode configurationNode)

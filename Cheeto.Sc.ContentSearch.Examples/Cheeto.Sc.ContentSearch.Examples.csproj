@@ -71,6 +71,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\abk.sc.pubxml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cheeto.Sc.ContentSearch\Cheeto.Sc.ContentSearch.csproj">
+      <Project>{7dee89af-ab7d-4802-9bd0-4905d283c99d}</Project>
+      <Name>Cheeto.Sc.ContentSearch</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Config\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
